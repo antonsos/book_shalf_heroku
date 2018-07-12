@@ -29,7 +29,7 @@ const SidenavItems = ({user}) => {
         },
         {
             type:'navItem',
-            icon:'sign-in-alt',
+            icon:'sign-in',
             text:'Login',
             link:'/login',
             restricted:false,
@@ -51,7 +51,7 @@ const SidenavItems = ({user}) => {
         },
         {
             type:'navItem',
-            icon:'sign-out-alt',
+            icon:'sign-out',
             text:'Logout',
             link:'/user/logout',
             restricted:true
